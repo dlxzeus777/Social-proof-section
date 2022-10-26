@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/bg-pattern-top-desktop.svg'), url('./images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 0, bottom right;
+    background-size: 77rem;
+    min-height: 100vh;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 15px;
+    margin: 0;
+}
+.container{
+    width: 70rem;
+}
+.user
+{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.img-box
+{
+    display: flex;
+}
+.user h1
+{
+    margin-top: 0;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+    font-size: 3rem;
+}
+.user p
+{
+    font-size: 1.5rem;
+    color: hsl(303, 10%, 53%)
+}
+.container-user
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.reviews
+{
+    padding: 1.5rem;
+    background-color: hsl(300, 24%, 96%);
+    margin-bottom: 1rem;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: hsl(300, 43%, 22%);
+    font-weight: 700;
+}
+.ratings
+{
+    width: 40%;
+}
+.reviews:last-of-type
+{
+    margin-bottom: 0;
+}
+
+.reviews:nth-child(2)
+{
+    position: relative;
+    right: 1.5rem;
+}
+
+.reviews:nth-child(1)
+{
+    position: relative;
+    right: 3rem;
+}
+
+.card
+{
+    padding: 2rem;
+    background-color: hsl(300, 43%, 22%);
+    width: 18rem;
+    color: white;
+    border-radius: 10px;
+    padding-top: 3rem;
+}
+.card:nth-child(2)
+{
+    position: relative;
+    top: 1.5rem;
+}
+.card:nth-child(3)
+{
+    position: relative;
+    top: 3rem;
+}
+
+.card img
+{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+.container-name
+{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.name{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+.name p
+{
+    margin: 0;
+}
+.name p:first-child
+{
+    font-weight: 700;
+}
+.name p:last-child
+{
+    color: hsl(333, 80%, 67%);
+}
+.user-experience
+{
+    font-size: 1.1rem;
+}
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}

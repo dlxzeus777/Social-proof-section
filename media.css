@@ -1,0 +1,124 @@
+@media (max-width: 1138px)
+{
+    .container
+    {
+        width: 55rem;
+    }
+}
+
+@media (max-width: 1200px)
+{
+    .card
+    {
+        width: 14rem;
+    }
+}
+
+@media (max-width: 970px)
+{
+    body{
+        padding: 1rem;
+        background-image: url('./images/bg-pattern-top-mobile.svg'), url('./images/bg-pattern-bottom-mobile.svg');
+        background-repeat: no-repeat, no-repeat;
+        background-size: contain;
+    }
+    .reviews
+    {
+        flex-direction: column;
+    }
+    .container
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .container-user
+    {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .card-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .reviews
+    {
+        position: static;
+        left: 0;
+    }
+    .card:nth-child(2)
+    {
+        position: static;
+        top: 0;
+    }
+    .card:nth-child(3)
+    {
+        position: static;
+        top: 0;
+    }
+    .card
+    {
+        margin-bottom: 1rem;
+    }
+    .reviews:nth-child(2)
+    {
+    position: static;
+    right: 0;
+    }
+
+    .reviews:nth-child(1)
+    {
+    position: static;
+    right: 0;
+    }
+    .user p
+    {
+        text-align: center;
+    }
+    .user h1{
+        text-align: center;
+    }
+    .user
+    {
+        width: 30rem;
+    }
+    .ratings
+    {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 505px)
+{
+    .user{
+        width: 15rem;
+    }
+    .ratings
+    {
+        width: 19rem;
+    }
+    .reviews
+    {
+        padding: 1.5rem 1rem;
+    }
+}
+
+@media (max-width: 300px)
+{
+    .user{
+        width: 15rem;
+    }
+    .ratings
+    {
+        width: 17rem;
+    }
+    .reviews
+    {
+        padding: 1.5rem 1rem;
+    }
+    .card{
+        width: 12rem;
+    }
+}
